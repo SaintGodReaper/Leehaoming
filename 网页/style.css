@@ -1,0 +1,54 @@
+/* 重置默认样式 */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 页面背景 */
+body {
+    background-color: #f0f0f0; /* 背景颜色 */
+    font-family: Arial, sans-serif; /* 字体 */
+    color: #333; /* 字体颜色 */
+    line-height: 1.6; /* 行高 */
+    padding: 20px; /* 页面内边距 */
+}
+
+/* 标题样式 */
+h1 {
+    text-align: center; /* 居中对齐 */
+    color: #2c3e50; /* 标题颜色 */
+    margin-bottom: 20px; /* 下外边距 */
+}
+
+/* section 样式 */
+section {
+    background-color: #fff; /* 背景颜色 */
+    margin: 20px auto; /* 外边距 */
+    padding: 20px; /* 内边距 */
+    border-radius: 5px; /* 圆角边框 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    max-width: 800px; /* 最大宽度 */
+}
+
+/* 子标题样式 */
+h2 {
+    color: #2980b9; /* 子标题颜色 */
+    margin-bottom: 10px; /* 下外边距 */
+}
+
+/* 段落样式 */
+p {
+    padding: 10px; /* 内边距 */
+    text-align: left; /* 段落左对齐 */
+}
+
+/* 链接样式 */
+a {
+    color: #2980b9; /* 链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+a:hover {
+    text-decoration: underline; /* 悬停时显示下划线 */
+}
